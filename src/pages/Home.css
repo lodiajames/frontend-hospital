@@ -1,0 +1,37 @@
+.carousel-container {
+  margin-top: 5px;
+  margin-bottom: 50px;
+
+  padding-top: 20px; /* Adjust this value if needed to create space from navbar */
+}
+
+.carousel-slide {
+  position: relative;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.carousel-caption h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.carousel-caption p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+}

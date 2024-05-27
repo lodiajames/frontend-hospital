@@ -1,0 +1,62 @@
+.main-content {
+  padding-top: 80px;
+}
+
+.appointment-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 80px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.appointment-card p {
+  margin: 5px 0;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #2196f3;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #1e88e5;
+}
+
+.delete-btn:hover {
+  background-color: #e53935;
+}
+
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+option {
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}

@@ -1,0 +1,89 @@
+/* General styles for the main container */
+.main-doc-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+
+  background-image: url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.main-doc-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  z-index: -1;
+}
+/* Styling the form section */
+.form-sections {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 45%;
+}
+
+/* Heading style */
+.form-sections h4 {
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.form-sections form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+.form-sections label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Input field styling */
+.form-sections input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button styling */
+.form-sections button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-sections button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling the doctors section */
+.doctors-section {
+  width: 50%;
+}
+
+/* Heading for doctors section */
+.doctors-section h3 {
+  margin-bottom: 20px;
+}
+
+/* Doctor list container */
+.doctor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
